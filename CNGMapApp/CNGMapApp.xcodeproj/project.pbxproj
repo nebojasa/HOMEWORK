@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520C03071CEB02F0006AC2D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520C03061CEB02F0006AC2D1 /* main.m */; };
+		520C030A1CEB02F0006AC2D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520C03091CEB02F0006AC2D1 /* AppDelegate.m */; };
+		520C030D1CEB02F0006AC2D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520C030C1CEB02F0006AC2D1 /* ViewController.m */; };
+		520C03101CEB02F0006AC2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520C030E1CEB02F0006AC2D1 /* Main.storyboard */; };
+		520C03131CEB02F0006AC2D1 /* CNGMapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 520C03111CEB02F0006AC2D1 /* CNGMapApp.xcdatamodeld */; };
+		520C03151CEB02F0006AC2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520C03141CEB02F0006AC2D1 /* Assets.xcassets */; };
+		520C03181CEB02F0006AC2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520C03161CEB02F0006AC2D1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520C03021CEB02EF006AC2D1 /* CNGMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNGMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520C03061CEB02F0006AC2D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520C03081CEB02F0006AC2D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		520C03091CEB02F0006AC2D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		520C030B1CEB02F0006AC2D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		520C030C1CEB02F0006AC2D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		520C030F1CEB02F0006AC2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520C03121CEB02F0006AC2D1 /* CNGMapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CNGMapApp.xcdatamodel; sourceTree = "<group>"; };
+		520C03141CEB02F0006AC2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520C03171CEB02F0006AC2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520C03191CEB02F0006AC2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520C02FF1CEB02EF006AC2D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520C02F91CEB02EF006AC2D1 = {
+			isa = PBXGroup;
+			children = (
+				520C03041CEB02F0006AC2D1 /* CNGMapApp */,
+				520C03031CEB02EF006AC2D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520C03031CEB02EF006AC2D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520C03021CEB02EF006AC2D1 /* CNGMapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520C03041CEB02F0006AC2D1 /* CNGMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				520C03081CEB02F0006AC2D1 /* AppDelegate.h */,
+				520C03091CEB02F0006AC2D1 /* AppDelegate.m */,
+				520C030B1CEB02F0006AC2D1 /* ViewController.h */,
+				520C030C1CEB02F0006AC2D1 /* ViewController.m */,
+				520C030E1CEB02F0006AC2D1 /* Main.storyboard */,
+				520C03141CEB02F0006AC2D1 /* Assets.xcassets */,
+				520C03161CEB02F0006AC2D1 /* LaunchScreen.storyboard */,
+				520C03191CEB02F0006AC2D1 /* Info.plist */,
+				520C03111CEB02F0006AC2D1 /* CNGMapApp.xcdatamodeld */,
+				520C03051CEB02F0006AC2D1 /* Supporting Files */,
+			);
+			path = CNGMapApp;
+			sourceTree = "<group>";
+		};
+		520C03051CEB02F0006AC2D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520C03061CEB02F0006AC2D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520C03011CEB02EF006AC2D1 /* CNGMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520C031C1CEB02F0006AC2D1 /* Build configuration list for PBXNativeTarget "CNGMapApp" */;
+			buildPhases = (
+				520C02FE1CEB02EF006AC2D1 /* Sources */,
+				520C02FF1CEB02EF006AC2D1 /* Frameworks */,
+				520C03001CEB02EF006AC2D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNGMapApp;
+			productName = CNGMapApp;
+			productReference = 520C03021CEB02EF006AC2D1 /* CNGMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520C02FA1CEB02EF006AC2D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nebojsa Gujanicic";
+				TargetAttributes = {
+					520C03011CEB02EF006AC2D1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UE3WRJMD6V;
+					};
+				};
+			};
+			buildConfigurationList = 520C02FD1CEB02EF006AC2D1 /* Build configuration list for PBXProject "CNGMapApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520C02F91CEB02EF006AC2D1;
+			productRefGroup = 520C03031CEB02EF006AC2D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520C03011CEB02EF006AC2D1 /* CNGMapApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520C03001CEB02EF006AC2D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C03181CEB02F0006AC2D1 /* LaunchScreen.storyboard in Resources */,
+				520C03151CEB02F0006AC2D1 /* Assets.xcassets in Resources */,
+				520C03101CEB02F0006AC2D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520C02FE1CEB02EF006AC2D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520C030D1CEB02F0006AC2D1 /* ViewController.m in Sources */,
+				520C03131CEB02F0006AC2D1 /* CNGMapApp.xcdatamodeld in Sources */,
+				520C030A1CEB02F0006AC2D1 /* AppDelegate.m in Sources */,
+				520C03071CEB02F0006AC2D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520C030E1CEB02F0006AC2D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520C030F1CEB02F0006AC2D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520C03161CEB02F0006AC2D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520C03171CEB02F0006AC2D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520C031A1CEB02F0006AC2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		520C031B1CEB02F0006AC2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520C031D1CEB02F0006AC2D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CNGMapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebojasa.CNGMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		520C031E1CEB02F0006AC2D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CNGMapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nebojasa.CNGMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520C02FD1CEB02EF006AC2D1 /* Build configuration list for PBXProject "CNGMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C031A1CEB02F0006AC2D1 /* Debug */,
+				520C031B1CEB02F0006AC2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520C031C1CEB02F0006AC2D1 /* Build configuration list for PBXNativeTarget "CNGMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520C031D1CEB02F0006AC2D1 /* Debug */,
+				520C031E1CEB02F0006AC2D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		520C03111CEB02F0006AC2D1 /* CNGMapApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				520C03121CEB02F0006AC2D1 /* CNGMapApp.xcdatamodel */,
+			);
+			currentVersion = 520C03121CEB02F0006AC2D1 /* CNGMapApp.xcdatamodel */;
+			path = CNGMapApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 520C02FA1CEB02EF006AC2D1 /* Project object */;
+}
